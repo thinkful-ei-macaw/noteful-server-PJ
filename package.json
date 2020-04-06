@@ -1,0 +1,22 @@
+{
+  "name": "noteful-relationships",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postgrator-config.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.20.13",
+    "morgan": "^1.10.0",
+    "pg": "^8.0.0",
+    "postgrator-cli": "^3.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "postgrator --config postgrator-config.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
